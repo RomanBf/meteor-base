@@ -18,7 +18,7 @@ require('p-wait-for')(function() {
 		});
 	});
 }, 1000).then(function() {
-        process.exit(0);
+    process.exit(0);
 });
 EOJS
 

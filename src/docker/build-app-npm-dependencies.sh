@@ -6,4 +6,4 @@ printf "\n[-] Installing app NPM dependencies...\n\n"
 
 cd $APP_SOURCE_FOLDER
 
-meteor npm install
+meteor npm install --production
