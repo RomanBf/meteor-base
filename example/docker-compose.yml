@@ -7,8 +7,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - '$PORT:$PORT'
-#    links:
-#      - mongo
+    links:
+      - mongo
     environment:
       ROOT_URL: ${ROOT_URL:-http://localhost}
       MONGO_URL: ${MONGO_URL:-mongodb://mongo:27017/meteor}
